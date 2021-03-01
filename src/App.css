@@ -1,0 +1,492 @@
+/* APP */
+body {
+  background-color: #cfb997;
+}
+
+nav {
+  /* position: fixed; */
+  /* background-color: #800020; */
+  /* background-color: #9f1d35; */
+  max-width: 100%;
+  max-height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #741527;
+  margin-top: 20px;
+}
+
+.linkHolder {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+ol {
+  font-size: 30px;
+}
+
+li {
+  font-size: 20px;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.mainBoard {
+  border-radius: 30px;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* Nav */
+.imgHolder {
+  margin: -60px 0px 0px 20px;
+}
+
+.logo {
+  border-radius: 90%;
+  background-color: white;
+}
+
+.anchor {
+  margin: auto;
+  cursor: grab;
+  align-items: center;
+  color: white;
+  padding: 1%;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.homeHolder {
+  margin: auto;
+}
+
+.homeHeading {
+  font-size: 40px;
+}
+
+.homeAbout {
+  font-size: 30px;
+}
+
+.imgholder {
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+
+.storefront {
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Contact page */
+.holders {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.contactHeading {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.name {
+  height: 20px;
+  width: 40%;
+  margin: 10px 0px 10px 38px;
+}
+
+.emailInput {
+  width: 40%;
+  height: 20px;
+  margin: 10px 0px 10px 74px;
+}
+
+.phoneNumber {
+  width: 40%;
+  height: 20px;
+  margin: 10px 0px 10px 14px;
+}
+
+.comments {
+  width: 40%;
+  margin: 10px 0px 10px 45px;
+  height: 50px;
+}
+
+.formButton {
+  margin: 10px 0px 10px 45px;
+  padding: 1.5%;
+  margin-left: 290px;
+}
+
+.socialMedia {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.facebook {
+  color: #3b5998;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.facebook:hover {
+  color: white;
+  background-color: #3b5998;
+}
+
+.email {
+  color: #800020;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.email:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.instagram {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.instagram:hover {
+  color: purple;
+}
+
+.titles {
+  font-size: 20px;
+}
+
+.ptitles {
+  font-size: 20px;
+}
+
+/* ABOUT */
+.aboutHeading {
+  margin: 0px 0px 0px 10px;
+  font-size: 45px;
+}
+
+.aboutHolder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.left {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 55%;
+  justify-content: flex-start;
+}
+
+.right {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+/* DEPARTMENTS */
+.heading {
+  margin: 20px 0px 0px 10px;
+  font-size: 45px;
+}
+
+.alter {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.produce {
+  margin-top: -20px;
+  justify-content: center;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.departmentHolder {
+  margin: 20px 10px 10px 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*  TABLET  */
+/*  TABLET  */
+/*  TABLET  */
+@media only screen and (max-width: 900px) {
+  nav {
+    max-height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+
+  .imgHolder {
+    margin-top: -40px;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-top: -50px;
+    margin: 0 auto;
+    border-radius: 90%;
+  }
+
+  .anchor {
+    font-size: 15px;
+    cursor: grab;
+    color: white;
+    flex-direction: row;
+    padding: 3px;
+  }
+
+  .mainBoard {
+    border-radius: 30px;
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    padding-top: 10px;
+  }
+
+  .linkHolder {
+    display: flex;
+    background-color: #800020;
+    width: 100%;
+    margin: auto;
+  }
+  .imgHolder {
+    margin: 0px 0px 0px 20px;
+    margin: auto;
+  }
+
+  .logo {
+    border-radius: 90%;
+    background-color: white;
+  }
+
+  .heading {
+    text-align: center;
+    margin: 20px 0px 0px 10px;
+    font-size: 45px;
+  }
+  
+  .alter {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+
+  .departmentPic {
+    margin-top: 20px;;
+    margin: auto;
+  }
+  
+  .produce {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .departmentHolder {
+    margin: 20px 10px 10px 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .left {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .size {
+    font-size: 25px;
+  }
+
+  .ssize {
+    font-size: 20px;
+  }
+
+  .formButton {
+    margin: 10px 0px 10px 5px;
+    padding: 1.5%;
+    margin-left: 280px;
+  }
+
+  .holders {
+    text-align: center;
+    margin: auto;
+  }
+
+  form {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+@media only screen and (max-width: 550px) {
+  nav {
+    max-height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+
+  .imgHolder {
+    margin-top: -40px;
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-top: -50px;
+    margin: 0 auto;
+    border-radius: 90%;
+  }
+
+  .anchor {
+    text-decoration: none;
+    font-size: 15px;
+    cursor: grab;
+    color: white;
+    flex-direction: row;
+    padding: 8px;
+    border-bottom: 2px solid black;
+  }
+
+  .mainBoard {
+    border-radius: 30px;
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    padding-top: 10px;
+  }
+
+  .linkHolder {
+    display: flex;
+    flex-direction: column;
+    background-color: #800020;
+    width: 100%;
+    margin: auto;
+  }
+  .imgHolder {
+    margin: 0px 0px 0px 20px;
+    margin: auto;
+  }
+
+  .logo {
+    border-radius: 90%;
+    background-color: white;
+  }
+
+  .heading {
+    text-align: center;
+    margin: 20px 0px 0px 10px;
+    font-size: 45px;
+  }
+  
+  .alter {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+
+  .departmentPic {
+    margin-top: 20px;;
+    margin: auto;
+  }
+  
+  .produce {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .departmentHolder {
+    margin: 20px 10px 10px 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right {
+    margin: auto;
+    text-align: center;
+  }
+
+  .left {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .size {
+    font-size: 25px;
+  }
+
+  .ssize {
+    font-size: 20px;
+  }
+
+  .formButton {
+    margin: 10px 0px 10px 5px;
+    padding: 1.5%;
+    margin-left: 230px;
+  }
+}
