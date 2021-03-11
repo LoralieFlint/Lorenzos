@@ -9,10 +9,12 @@
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
     "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.7.16",
     "reactstrap": "^8.4.1",
     "styled-components": "^5.1.1"

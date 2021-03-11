@@ -2,6 +2,21 @@ import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import Sideone from "../src/img/side1.jpg";
+import Contact from "./Contact";
+import image1 from "../src/img/storefront.jpg";
+import image2 from "../src/img/side1.jpg";
+import image3 from "../src/img/side2.jpg";
+import image4 from "../src/img/produce.jpg";
+import image5 from "../src/img/meat2.jpg";
+import image6 from "../src/img/meat1.jpg";
+import image7 from "../src/img/deli2.jpg";
+import image8 from "../src/img/deli.jpg";
+import image9 from "../src/img/dairy.jpg";
+import image10 from "../src/img/bakery.jpg";
+import image11 from "../src/img/alcohol.jpg";
+
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 
 function Home() {
   return (
@@ -15,15 +30,21 @@ function Home() {
         ></img>
       </div>
       <div className="homeHolder">
-        <h1 className="homeHeading">Home page displays here </h1>
-        <p className="homeAbout"> login and sign up options </p>
-        <br />
-        <ol>
-          once logged in
-          <li> use the online catalog to create a shopping list</li>
-          <li> save recipes to your profile for easy future access</li>
-        </ol>
+        <AwesomeSlider className="slider">
+          <div className="wrapper" data-src={image1} />
+          <div className="wrapper" data-src={image2} />
+          <div className="wrapper" data-src={image3} />
+          <div className="wrapper" data-src={image4} />
+          <div className="wrapper" data-src={image5} />
+          <div className="wrapper" data-src={image6} />
+          <div className="wrapper" data-src={image7} />
+          <div className="wrapper" data-src={image8} />
+          <div className="wrapper" data-src={image9} />
+          <div className="wrapper" data-src={image10} />
+          <div className="wrapper" data-src={image11} />
+        </AwesomeSlider>
       </div>
+      <Contact />
     </section>
   );
 }

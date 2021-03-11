@@ -31,9 +31,6 @@ function App() {
       <Route path="/about">
         <About />
       </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
     </div>
   );
 }

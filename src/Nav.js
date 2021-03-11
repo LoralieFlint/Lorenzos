@@ -27,10 +27,7 @@ function Nav() {
         </a>
         <a className="anchor" href="/about">
           About Us
-        </a>
-        <a className="anchor" href="contact">
-          Contact Us
-        </a>  
+        </a> 
         </div>
     
       </nav>

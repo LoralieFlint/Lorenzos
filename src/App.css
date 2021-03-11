@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /* APP */
 body {
   background-color: #cfb997;
+  /* font-family: kaya Telivigala, cursive; */
+  /* font-family: Akaya Kanadaka; */
+  /* font-family: fantasy; */
+  font-family: 'Raleway', sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+}
 nav {
-  /* position: fixed; */
   /* background-color: #800020; */
   /* background-color: #9f1d35; */
   max-width: 100%;
@@ -29,6 +36,10 @@ li {
   font-size: 20px;
 }
 
+h3{
+  margin: 0;
+}
+
 form {
   width: 50%;
   display: flex;
@@ -39,11 +50,11 @@ form {
 .mainBoard {
   border-radius: 30px;
   margin: auto;
+  margin-bottom: 2px;
   width: 90%;
   height: auto;
   background-color: white;
   padding-top: 40px;
-  padding-bottom: 20px;
 }
 
 /* Nav */
@@ -72,6 +83,8 @@ form {
 
 .homeHolder {
   margin: auto;
+  margin-top: 15px;
+  margin-bottom: 55px;
 }
 
 .homeHeading {
@@ -95,96 +108,117 @@ form {
   width: 100%;
 }
 
+.slider {
+  height: 500px;
+}
+
 /* Contact page */
+.contactpage {
+  background-color: #f1eae0;
+  padding: 20px 0 40px 0;
+  border-radious: 30px 30px 30px 30px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .holders {
   margin-left: 20px;
-  margin-bottom: 20px;
+}
+
+.address {
+  margin-right: 25px;
+}
+
+.googlemap {
+  width: 100%;
+  height: 300px;
+  border: none;
 }
 
 .contactHeading {
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 1.5rem;
+
 }
 
 .name {
+  width: 12.5rem;
   height: 20px;
-  width: 40%;
-  margin: 10px 0px 10px 38px;
+  margin: 10px 0px 10px 0px;
 }
 
 .emailInput {
-  width: 40%;
+  width: 12.5rem;
   height: 20px;
-  margin: 10px 0px 10px 74px;
+  margin: 10px 0px 10px 0px;
 }
 
 .phoneNumber {
-  width: 40%;
+  width: 12.5rem;
   height: 20px;
-  margin: 10px 0px 10px 14px;
+  margin: 10px 0px 10px 0px;
 }
 
 .comments {
-  width: 40%;
-  margin: 10px 0px 10px 45px;
+  width: 12.5rem;
+  margin: 10px 0px 10px 0px;
   height: 50px;
 }
 
 .formButton {
-  margin: 10px 0px 10px 45px;
-  padding: 1.5%;
-  margin-left: 290px;
+  justify-content: flex-start;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
 }
 
 .socialMedia {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
 .facebook {
-  color: #3b5998;
-  padding: 5px;
+  color: #741527;
+  /* color: #3b5998; */
   margin-right: 15px;
-  margin-bottom: 20px;
-}
-
-.facebook:hover {
-  color: white;
-  background-color: #3b5998;
 }
 
 .email {
-  color: #800020;
+  /* color: #800020; */
+  color: #741527;
   margin-right: 15px;
-  margin-bottom: 20px;
-}
-
-.email:hover {
-  cursor: pointer;
-  background-color: gray;
 }
 
 .instagram {
   margin-right: 15px;
-  margin-bottom: 20px;
-}
-
-.instagram:hover {
-  color: purple;
+  color: #741527;
 }
 
 .titles {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .ptitles {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 /* ABOUT */
 .aboutHeading {
-  margin: 0px 0px 0px 10px;
-  font-size: 45px;
+  margin: 20px 0px 0px 10px;
+  font-size: 2.8rem;
+}
+
+.aboutTitle {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #822c3d;
+}
+
+.aboutInfo {
+  width: 50%;
+  padding: 0 0 0 10px;
 }
 
 .aboutHolder {
@@ -194,44 +228,54 @@ form {
 }
 
 .left {
-  margin-left: 10px;
-  font-size: 20px;
-  width: 55%;
-  justify-content: flex-start;
+  font-size: 1.25rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .right {
-  margin-left: 10px;
-  font-size: 20px;
-  width: 50%;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  color: #822c3d;
+  font-weight: bolder;
 }
 
 /* DEPARTMENTS */
 .heading {
   margin: 20px 0px 0px 10px;
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 
-.alter {
-  font-size: 25px;
-  margin-left: 10px;
+.departmentname { 
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #822c3d;
+
 }
 
 .produce {
-  margin-top: -20px;
-  justify-content: center;
   border-radius: 50%;
   height: 300px;
   width: 300px;
 }
 
 .departmentHolder {
-  margin: 20px 10px 10px 10px;
-  justify-content: space-between;
-  margin-top: 10px;
+  margin: 20px 10px 0px 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.department {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 15px 0px 15px;
+}
+.application {
+  margin: 5px 0 15px 0;
 }
 
 /*  TABLET  */
