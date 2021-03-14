@@ -19,21 +19,22 @@ function Contact() {
       </Fade>
 
       <section className="contact">
+
         <section className="holders">
-          <h1 className="contactHeading">We want your feedback</h1>
-          <form>
-            <label htmlFor="first-name">First Name:</label>
+        <h1 className="contactHeading">We want your feedback</h1>
+
+          <form className="form">
+            <label className="contactLabel" htmlFor="first-name">First Name:</label>
             <input type="text" name="first-name" className="name"></input>
-            <label htmlFor="email">Email:</label>
+            <label className="contactLabel" htmlFor="email">Email:</label>
             <input type="text" className="emailInput"></input>
-            <label htmlFor="phoneNumber">Phone Number:</label>
+            <label className="contactLabel" htmlFor="phoneNumber">Phone Number:</label>
             <input type="number" className="phoneNumber"></input>
-            <label htmlFor="comments">Comments:</label>
+            <label className="contactLabel" htmlFor="comments">Comments:</label>
             <input type="text" className="comments"></input>
             <button className="formButton">Submit</button>
           </form>
         </section>
-        <section className="holders"></section>
         <section className="address">
           <h4 className="socialMedia">Contact Us</h4>
           <p className="ptitles">

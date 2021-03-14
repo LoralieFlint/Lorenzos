@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 /* APP */
 body {
@@ -6,10 +6,15 @@ body {
   /* font-family: kaya Telivigala, cursive; */
   /* font-family: Akaya Kanadaka; */
   /* font-family: fantasy; */
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: fantasy;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fantasy;
 }
 nav {
   /* background-color: #800020; */
@@ -36,7 +41,7 @@ li {
   font-size: 20px;
 }
 
-h3{
+h3 {
   margin: 0;
 }
 
@@ -141,7 +146,6 @@ form {
 .contactHeading {
   font-weight: bolder;
   font-size: 1.5rem;
-
 }
 
 .name {
@@ -248,11 +252,10 @@ form {
   font-size: 2.8rem;
 }
 
-.departmentname { 
+.departmentname {
   font-size: 1.5rem;
   font-weight: bolder;
   color: #822c3d;
-
 }
 
 .produce {
@@ -341,7 +344,7 @@ form {
     margin: 20px 0px 0px 10px;
     font-size: 45px;
   }
-  
+
   .alter {
     font-size: 25px;
     margin: auto;
@@ -350,10 +353,10 @@ form {
   }
 
   .departmentPic {
-    margin-top: 20px;;
+    margin-top: 20px;
     margin: auto;
   }
-  
+
   .produce {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -362,7 +365,7 @@ form {
     height: 300px;
     width: 300px;
   }
-  
+
   .departmentHolder {
     margin: 20px 10px 10px 10px;
     justify-content: space-between;
@@ -393,10 +396,21 @@ form {
   }
 
   .formButton {
-    margin: 10px 0px 10px 5px;
-    padding: 1.5%;
-    margin-left: 280px;
+    width: 94%;
   }
+
+  .holders {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contactLabel {
+    text-align: left;
+  }
+  /* .name {
+    margin: 10px 0px 10px -10px;
+  } */
 
   .holders {
     text-align: center;
@@ -412,11 +426,10 @@ form {
   }
 }
 
-
 /* MOBILE */
 /* MOBILE */
 /* MOBILE */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   nav {
     max-height: 30rem;
     display: flex;
@@ -479,7 +492,7 @@ form {
     margin: 20px 0px 0px 10px;
     font-size: 45px;
   }
-  
+
   .alter {
     font-size: 25px;
     margin: auto;
@@ -488,10 +501,10 @@ form {
   }
 
   .departmentPic {
-    margin-top: 20px;;
+    margin-top: 20px;
     margin: auto;
   }
-  
+
   .produce {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -500,7 +513,7 @@ form {
     height: 300px;
     width: 300px;
   }
-  
+
   .departmentHolder {
     margin: 20px 10px 10px 10px;
     justify-content: space-between;
@@ -508,13 +521,41 @@ form {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .department {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    display: flex; 
+    flex-direction: column;
+  }
+  .switch {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .right {
     margin: auto;
     text-align: center;
   }
 
-  .left {
+  .aboutHeading {
+    text-align: center;
+  }
+
+  .aboutSection {
+    width: 100%;
+  }
+
+  .aboutInfo {
+    text-align: center;
+    width: 22rem;
+    margin: auto;
     margin-bottom: 20px;
+  }
+
+  .left {
     margin-top: 20px;
     margin: auto;
     text-align: center;
@@ -529,8 +570,46 @@ form {
   }
 
   .formButton {
-    margin: 10px 0px 10px 5px;
+    margin: 10px 0px 10px 0px;
     padding: 1.5%;
-    margin-left: 230px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address {
+    margin: auto;
+    text-align: center;
+  }
+  .holders {
+    width: 100%;
+    margin: auto;
+    margin-left: 0;
+  }
+  .form {
+    margin: auto;
+    width: 400px;
+  }
+
+  .name {
+    width: 25rem;
+  }
+
+  .emailInput {
+    width: 25rem;
+  }
+
+  .phoneNumber {
+    width: 25rem;
+  }
+
+  .comments {
+    width: 25rem;
+  }
+
+  .formButton {
+    width: 25.5rem;
   }
 }
